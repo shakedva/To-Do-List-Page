@@ -7,5 +7,5 @@ Watch a live demo [here](https://shakedva.github.io/To-Do-List-Page/).
 
 # Authors
 
-* [Shaked Vakin](https://github.com/shakedva)
+* [Shaked Vaknin](https://github.com/shakedva)
 * [Noy Tal Gelfand](https://github.com/noytal1)
