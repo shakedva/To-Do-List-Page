@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/mycss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="js/myfunctions.js"></script>
+    <title>Exercise 2 - Internet Programming Course template 2</title>
+</head>
+<body class= "body">
+<div class="container-fluid">
+
+    <div class="row nameRow">
+        <h1> <b>To Do List </b>  </h1>
+    </div>
+
+    <img class="img-fluid"
+         src="https://d12y7sg0iam4lc.cloudfront.net/s/img/marketing/top-todo-app/to-do-list.png"
+         alt="to do list"
+         width="550" height="350">
+    <div id="userInterface">
+        <div class="buttonSection">
+            <button type="button" id="sortBtn" class="btn btn-outline-secondary">
+                <img src="images/round_sort_black_24dp.png" alt="sort">
+                <span> Sort </span>
+            </button>
+            <button type="button" id="showHighPriorityBtn" class="btn btn-outline-secondary">
+                <img src="images/round_star_outline_black_24dp.png" alt="high priority">
+                <span> Show High Priority </span>
+            </button>
+            <br/>
+        </div>
+        <div class="md-3">
+            <label class="form-label"> Title </label>
+            <input type="text" class="title form-control" placeholder="Please enter the title here" id="title" required>
+            <span id="errorTitleEmpty" class="d-none"> Please enter a title with letters and digits only </span>
+            <span id="errorTitleExist" class="d-none"> This title already exists </span>
+        </div>
+        <div class="md-3">
+            <br/>
+            <label class="form-label"> Description </label>
+            <div class="form-floating">
+                <textarea class="form-control" id="description" style="height: 150px"></textarea>
+                <label for="description">Please enter your to do here</label>
+            </div>
+            <span id="errorDescriptionEmpty"
+                  class="d-none"> Please enter a description with letters and digits only </span>
+        </div>
+
+        <div>
+            <br/>
+            <input type="checkbox" id="highPriority" name="highPriority">
+            <label for="highPriority">High Priority</label>
+            &nbsp;
+            &nbsp;
+            <button type="button" id="addBtn" class="btn btn-outline-secondary">
+                <img src="images/round_add_black_24dp.png" alt="add">
+                <span>Add</span>
+            </button>
+        </div>
+    </div>
+   <div  class="buttonSection">
+       <button type="button" id="back" class="btn btn-outline-secondary d-none">
+            <img src="images/round_arrow_back_black_24dp.png" alt = "back">
+            <span>Back</span>
+       </button>
+       <br/><br/>
+   </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+</html>

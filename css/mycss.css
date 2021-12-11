@@ -1,0 +1,63 @@
+
+.body
+{
+    font-family: "Century Gothic", Bahnschrift, serif;
+    margin: 0px 30px 30px;
+}
+.nameRow
+{
+    background-color: #c6acd2;
+}
+h1
+{
+    text-align: center;
+}
+.center, .img-fluid
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button > img,
+button > span
+{
+    vertical-align: middle;
+}
+.deleteBtn
+{
+    position: relative;
+
+    display: block;
+    /*padding: 8px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+    overflow: hidden;
+
+    border-width: 0;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+
+    background-color: #ef5350;
+    color: #ecf0f1;
+    transition: background-color .3s;
+}
+#sortBtn,#showHighPriorityBtn
+{
+    margin: auto;
+    display: inline-block;
+
+}
+.buttonSection
+{
+    text-align: center;
+}
+#errorTitleEmpty,
+#errorDescriptionEmpty,
+#errorTitleExist
+{
+    font-weight: bold;
+    color: #ef5350;
+}
